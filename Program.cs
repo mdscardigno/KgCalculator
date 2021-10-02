@@ -29,7 +29,10 @@ namespace KgCalculator
       else if(kilograms <1000){
         price = kilograms * 4;
         Console.WriteLine($"The price for {kilograms}kg, is: {price}.");}
-      else{price = 1;}
+      else{
+        price = kilograms * 1;
+        Console.WriteLine($"The price for {kilograms}kg, is: {price}.");
+        }
     }//end of Main method
   }
 }
